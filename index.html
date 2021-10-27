@@ -30,18 +30,24 @@
   </header>
 
   <main>
-    <div class="filme-principal">
+    <div 
+      id="destaque" 
+      class="filme-principal" 
+      style="background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  
+      url('../img/dragon_ball_z_banner.jpg'); background-size:cover;"
+    >
       <div class="container">
         <h3 class="titulo">DRAGON BALL Z</h3>
         <p class="descricao">
-          Cinco anos após vencer o Torneio Mundial de Artes Marciais, 
-          Goku tem uma vida pacífica com sua esposa e filho. 
+          Cinco anos após vencer o Torneio Mundial de Artes Marciais,
+          Goku tem uma vida pacífica com sua esposa e filho.
         </p>
         <div class="botoes">
-          <button role="button" class="botao">
+          <button id="goTrailer" role="button" class="botao">
             <i class="fas fa-play"></i>
-            ASSISTIR AGORA
+            ASSISTIR TRAILER
           </button>
+
           <button role="button" class="botao">
             <i class="fas fa-info-circle"></i>
             MAIS INFORMAÇÕES
@@ -54,49 +60,64 @@
   <div class="carrosel-filmes">
     <div class="owl-carousel owl-theme">
       <div class="item">
-        <img class="box-filme" src="img/dragon_ball_z.jpg" alt="" srcset="">
+        <img id="dragon_ball_z" class="box-filme" src="img/dragon_ball_z.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/attack_on_titan2.jpg" alt="" srcset="">
+        <img id="attack_on_titan2" class="box-filme" src="img/attack_on_titan2.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/bleach.jpg" alt="" srcset="">
+        <img id="bleach" class="box-filme" src="img/bleach.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/demon_slayer.jpg" alt="" srcset="">
+        <img id="demon_slayer" class="box-filme" src="img/demon_slayer.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/dr_stone.jpg" alt="" srcset="">
+        <img id="dr_stone" class="box-filme" src="img/dr_stone.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/my_hero_academia.jpg" alt="" srcset="">
+        <img id="my_hero_academia" class="box-filme" src="img/my_hero_academia.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/fairy_tail.jpg" alt="" srcset="">
+        <img id="fairy_tail" class="box-filme" src="img/fairy_tail.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/fullmetal_alchemist_brotherhood.jpg" alt="" srcset="">
+        <img id="fullmetal_alchemist_brotherhood" class="box-filme" src="img/fullmetal_alchemist_brotherhood.jpg" alt=""
+          srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/jujutsu_kaisen.jpg" alt="" srcset="">
+        <img id="jujutsu_kaisen" class="box-filme" src="img/jujutsu_kaisen.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/hunter_x_hunter.jpg" alt="" srcset="">
+        <img id="hunter_x_hunter" class="box-filme" src="img/hunter_x_hunter.jpg" alt="" srcset="">
       </div>
       <div class="item">
-        <img class="box-filme" src="img/naruto_shippuden.jpg" alt="" srcset="">
+        <img id="naruto_shippuden" class="box-filme" src="img/naruto_shippuden.jpg" alt="" srcset="">
       </div>
     </div>
   </div>
 
-
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <div id="player"></div>
+    <!--
+    <iframe
+      id="myFrame" 
+      style="height:400px;width:100%;border:none;overflow:hidden;" 
+      src="https://www.youtube.com/embed/VQGCKyvzIM4"
+      title="YouTube video player" 
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+     -->
+  </div>
 
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
   <script src="js/owl/jquery.min.js"></script>
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
-
-
+  <script src="js/desafio.js"></script>
 
 </body>
 
