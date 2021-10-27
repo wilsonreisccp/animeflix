@@ -80,13 +80,13 @@ const clickFilme = (filme) => {
   descricao[0].innerHTML = "" + data[filme.path[0].id][1];
 
   const filmePrincipal = document.getElementsByClassName("filme-principal");
-  filmePrincipal[0].style.background = "linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/" + data[filme.path[0].id][3] +"')";
+  filmePrincipal[0].style.background = "linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/" + data[filme.path[0].id][3] + "')";
   filmePrincipal[0].style.backgroundSize = "cover";
 
   const video = document.getElementById("video");
   video.setAttribute("src", data[filme.path[0].id][2]);
 
-//  alert("https://www.youtube.com/embed/" + data[filme.path[0].id][2])
+  //  alert("https://www.youtube.com/embed/" + data[filme.path[0].id][2])
 
   //const video = document.querySelector("iframe");
   //video.setAttribute("src","adfasdfasdf");
@@ -116,11 +116,17 @@ btn.onclick = function () {
 
 span.onclick = function () {
   modal.style.display = "none";
+  const video = document.getElementById("video");
+  const aux = video.getAttribute("src");
+  video.setAttribute("src", aux);
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
-      modal.style.display = "none";
+    modal.style.display = "none";
+    const video = document.getElementById("video");
+    const aux = video.getAttribute("src");
+    video.setAttribute("src", aux);
   }
 }
