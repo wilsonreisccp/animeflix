@@ -30,12 +30,8 @@
   </header>
 
   <main>
-    <div 
-      id="destaque" 
-      class="filme-principal" 
-      style="background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  
-      url('../img/dragon_ball_z_banner.jpg'); background-size:cover;"
-    >
+    <div id="destaque" class="filme-principal" style="background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  
+      url('../img/dragon_ball_z_banner.jpg'); background-size:cover;">
       <div class="container">
         <h3 class="titulo">DRAGON BALL Z</h3>
         <p class="descricao">
@@ -99,8 +95,17 @@
   <!-- The Modal -->
   <div id="myModal" class="modal">
     <span class="close">&times;</span>
-    <div id="player"></div>
+
+    <iframe id="video" src="https://www.youtube.com/embed/GJtb9xiC0Pk"
+      style="height:400px;width:100%;border:none;overflow:hidden;"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+
     <!--
+      <div id="player"></div>
     <iframe
       id="myFrame" 
       style="height:400px;width:100%;border:none;overflow:hidden;" 
