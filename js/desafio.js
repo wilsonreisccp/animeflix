@@ -13,55 +13,55 @@ data = {
   ],
   "bleach": [
     "BLEACH",
-    "",
+    "Bleach segue as aventuras de Ichigo Kurosaki que após ganhar os poderes de um Ceifeiro de Almas, através de uma Ceifeira de Almas, Rukia Kuchiki. ... Tanto o anime quanto o mangá de Bleach alcançaram um grande sucesso dentro e fora do Japão.",
     "https://www.youtube.com/embed/hCjwrpyJ0vI",
     "bleach_b.jpg"
   ],
   "demon_slayer": [
     "DEMON SLAYER",
-    "",
+    "Em Kimetsu no Yaiba, Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. ... Arrasado com essa sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana e para destruir o demônio que matou seus entes queridos.",
     "https://www.youtube.com/embed/VQGCKyvzIM4",
     "demon_slayer_b.png"
   ],
   "dr_stone": [
     "DR. STONE",
-    "",
+    "Stone é um mangá de aventura, que conta a história de Senku, um gênio, que renasce 3.700 anos depois que uma luz misteriosa petrifica toda a humanidade. Usando-se de conhecimento científico, ele tenta restaurar a humanidade.",
     "https://www.youtube.com/embed/vHtZhVtEu04",
     "dr_stone_b.jpg"
   ],
   "my_hero_academia": [
     "MY HERO ACADEMIA",
-    "",
+    "Boku no Hero conta a história de Izuku Deku Midoriya, um jovem que nasceu sem Indivualidade (poder) em um mundo em que 80% da população manifesta ao menos uma desde criança. O sonho do jovem de se tornar um herói, inspirado pelo herói nº 1, All Might, é massacrado pela descoberta.",
     "https://www.youtube.com/embed/y2XaDCwKdpg",
     "my_hero_b.png"
   ],
   "fairy_tail": [
     "FAIRY TAIL",
-    "",
+    "A história de Fairy Tail gira em torno das aventuras de seus protagonistas, Natsu Dragneel a maga Lucy Heartfilia, tendo o gato Happy. ... Assim, Lucy entra para a Fairy Tail, onde começa a viver todo tipo de missão perigosa junto com Natsu, Happy e seus amigos, também magos da guilda, Erza Scarlet e Gray Fullbuster.",
     "https://www.youtube.com/embed/LqkVn-2pQ8k",
     "fairy_tail_b.jpg"
   ],
   "fullmetal_alchemist_brotherhood": [
     "FULLMETAL ALCHEMIST BROTHERHOOD",
-    "",
+    "Dois irmãos, Edward e Alphonse, ignoram as restrições contra usar um método científico tabu para reviver a mãe neste anime de aventura.",
     "https://www.youtube.com/embed/Kef3BsgI1Sk",
     "full_a_b.png"
   ],
   "jujutsu_kaisen": [
     "JUJUTSU KAISEN",
-    "",
+    "Jujutsu Kaisen é um mangá da Shonen Jump, sua estreia ocorreu em 2018 e atualmente já conta com 11 volumes encadernados no Japão. Seu enredo foca em uma mistura de ação com sobrenatural e nos traz Yuji, um jovem atleta até então vivendo uma vida comum.",
     "https://www.youtube.com/embed/ynr6gnyu9NE",
     "jujutsu_b.png"
   ],
   "hunter_x_hunter": [
     "HUNTER X HUNTER",
-    "",
+    "A história tem como protagonista Gon Freecss, um menino de 12 anos que quer encontrar o seu pai a todo o custo, então ele decide se tornar um Hunter, assim como ele, e de alguma forma encontrar o seu paradeiro.",
     "https://www.youtube.com/embed/koo0AvABfpw",
     "hunter_x_hunter_b.jpg"
   ],
   "naruto_shippuden": [
     "NARUTO SHIPPUDEN",
-    "",
+    "Naruto: Shippūden é uma continuação da série de mangá Naruto por Kishimoto, e conta com as reviravoltas da Akatsuki, jinchūriki e a busca por Sasuke Uchiha como enredo principal passados 2 anos e meio no universo imaginário de Naruto. ",
     "https://www.youtube.com/embed/FJb_4oZWTMQ",
     "naruto_s_b.jfif"
   ]
